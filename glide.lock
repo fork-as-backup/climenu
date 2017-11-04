@@ -1,0 +1,16 @@
+hash: 077fa89ef5f25f105e99a2071c33c98ab05a240c807bad19c427417b78c083f9
+updated: 2017-11-04T10:04:26.932912657-04:00
+imports:
+- name: github.com/buger/goterm
+  version: d443b9114f9c050367638a536310fbec36a0de11
+- name: github.com/paulrademacher/climenu
+  version: a1afbb4e378bf580e7d6bddd826e44e8f64347a1
+- name: github.com/pkg/term
+  version: b1f72af2d63057363398bec5873d16a98b453312
+  subpackages:
+  - termios
+- name: golang.org/x/sys
+  version: b6e1ae21643682ce023deb8d152024597b0e9bb4
+  subpackages:
+  - unix
+testImports: []

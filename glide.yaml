@@ -1,0 +1,5 @@
+package: github.com/leonj1/climenu
+import:
+- package: github.com/buger/goterm
+- package: github.com/paulrademacher/climenu
+- package: github.com/pkg/term

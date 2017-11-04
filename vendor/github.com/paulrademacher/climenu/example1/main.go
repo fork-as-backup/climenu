@@ -13,9 +13,9 @@ func callback(id string) {
 }
 
 func main() {
-	menu := climenu.NewButtonMenu("Welcome", "Where do you want to go today?")
-	menu.AddMenuItem("SparkJob", "sparkjob")
-	menu.AddMenuItem("PythonJob", "pythonjob")
+	menu := climenu.NewButtonMenu("Welcome", "Choose an action")
+	menu.AddMenuItem("Create entry", "create")
+	menu.AddMenuItem("Edit entry", "edit")
 
 	action, escaped := menu.Run()
 	if escaped {
